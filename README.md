@@ -39,6 +39,7 @@ RO: 'Romanian'
 RS: 'Serbian'
 TR: 'Turkish'
 SI: 'Slovenian'
+SM: 'San Marino'
 ```
 
 ## Coming soon
@@ -60,7 +61,6 @@ LV: 'Latvian'
 NL: 'Dutch'
 SE: 'Swedish'
 SK: 'Slovak'
-SM: 'San Marino'
 ZA: 'South African'
 ```
 

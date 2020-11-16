@@ -6,6 +6,7 @@ import ME_Validator from './validators/ME_Validator';
 import RS_Validator from './validators/RS_Validator';
 import SI_Validator from './validators/SI_Validator';
 import SM_Validator from './validators/SM_Validator';
+import NL_Validator from './validators/NL_Validator';
 
 export default function getValidatorClass(countryName) {
   switch (countryName) {
@@ -19,6 +20,8 @@ export default function getValidatorClass(countryName) {
       return MK_Validator;
     case 'ME':
       return ME_Validator;
+    case 'NL':
+      return NL_Validator;
     case 'RS':
       return RS_Validator;
     case 'SI':

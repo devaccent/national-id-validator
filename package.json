@@ -1,0 +1,33 @@
+{
+  "name": "national-id-validator",
+  "version": "1.0.0",
+  "description": "National ID Validator",
+  "author": "Alexandru Berce",
+  "license": "MIT",
+  "main": "build/index.js",
+
+  "scripts": {
+    "build": "webpack",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.1",
+    "babel-preset-minify": "^0.5.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.13.0",
+    "file-loader": "^6.2.0",
+    "prettier": "^2.1.2",
+    "prettier-webpack-plugin": "^1.2.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}

@@ -23,5 +23,6 @@ export const SUPPORTED_COUNTRIES = [
   'SI',
   'SK',
   'SM',
+  'TR',
   'ZA',
 ];

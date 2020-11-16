@@ -2,6 +2,8 @@
 
 Validate [national identity numbers](https://en.wikipedia.org/wiki/National_identification_number).
 
+> **Note:** This is a minimal version which has support for a short list of countries, more will be added soon.
+
 ## Installation
 
 Install the package via `npm`:
